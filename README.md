@@ -11,4 +11,4 @@ TODO:
   i. IMDB Api site
   ii. product store site built in react
   iii. food order customisation site
-  iv. game made with canvas or phaser.js mabe tetris
+  iv. game made with canvas or phaser.js maybe tetris
