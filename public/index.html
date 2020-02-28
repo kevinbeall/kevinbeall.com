@@ -17,13 +17,13 @@
         <nav>
           <ul>
             <li>
-              <a href="#">Portfolio</a>
+              <a href="#portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="#">About Me</a>
+              <a href="#about-me">About Me</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
@@ -33,7 +33,11 @@
         <h1 class="heading-title">Full Stack Web Developer</h1>
       </div>
       <div class="view-work">
-        <h4>View My Work</h4>
+        <a href="#portfolio">
+          <h4>
+            View My Work
+          </h4>
+        </a>
       </div>
       <div class="background-tri-wrapper">
         <div class="tri-1"></div>
@@ -42,7 +46,7 @@
       </div>
     </div>
     <!-- portfolio wrapper -->
-    <div class="portfolio-wrapper">
+    <div class="portfolio-wrapper" id="portfolio">
       <div class="portfolio-section-arrow-wrapper">
         <div class="port-arrow-tri-1"></div>
         <div class="port-arrow-tri-2 bounce"></div>
@@ -82,7 +86,9 @@
         </div>
       </div>
       <div class="who-am-i">
-        <h4>Who Am I?</h4>
+        <a href="#about-me">
+          <h4>Who Am I?</h4>
+        </a>
       </div>
       <div class="background-sq-wrapper">
         <div class="sq-1"></div>
@@ -94,7 +100,7 @@
       </div>
     </div>
     <!-- About me Wrapper -->
-    <div class="about-me-wrapper">
+    <div class="about-me-wrapper" id="about-me">
       <div class="about-section-arrow-wrapper">
         <div class="about-arrow-tri-1"></div>
         <div class="about-arrow-tri-2 bounce"></div>
@@ -119,17 +125,27 @@
         <div class="circle-8"></div>
       </div>
     </div>
-    <div class="contact-wrapper">
+    <div class="contact-wrapper" id="contact">
       <h2 class="contact-heading-l1">Well thats me.</h2>
       <h2 class="contact-heading-l2">Want to get in touch?</h2>
       <div class='contact-buttons'>
-        <button type="button" class="email-button">Email Me</button>
-        <button type="button" class="phone-button">Call Me</button>
+        <a class="email-button" href="mailto:kevinbealldev@gmail.com">
+          <span>Email Me</span>
+        </a>
+        <a class="phone-button" href="tel:+447773197319">
+          <span>Call Me</span>
+        </a>
       </div>
       <div class="social-image-links">
-        <img src="./images/003-twitter.svg" alt="Twitter image which links to twitter profile">
-        <img src="./images/002-github.svg" alt="Github image which links to github profile">
-        <img src="./images/001-linkedin.svg" alt="Linkedin image which links to linkedin profile">
+        <a href="https://twitter.com/kevinbeall11" target="_blank">
+          <img src="./images/003-twitter.svg" alt="Twitter image which links to twitter profile">
+        </a>
+        <a href="https://github.com/kevinbeall" target="_blank">
+          <img src="./images/002-github.svg" alt="Github image which links to github profile">
+        </a>
+        <a href="https://www.linkedin.com/in/kevin-beall/" target="_blank">
+          <img src="./images/001-linkedin.svg" alt="Linkedin image which links to linkedin profile">
+        </a>
       </div>
       <p class="copyright">&copy; Kevin Beall 2020</p>
     </div>
