@@ -340,6 +340,11 @@ body {
   margin: 0;
 }
 
+.technology-list li img {
+  height: 32px;
+  width: 32px;
+}
+
 .circle-1, .circle-2, .circle-3, .circle-4, .circle-5, .circle-6, .circle-7, .circle-8 {
   height: 150px;
   width: 150px;
@@ -616,6 +621,10 @@ body {
     left: calc(100vw / 2 - 130px);
   }
 
+  .technology-list li img {
+    height: 72px;
+    width: 72px;
+  }
   /* About Styles end */
 
 }
@@ -759,6 +768,11 @@ body {
   /* Project Styles end */
 
   /* About Styles */
+  .technology-list li img {
+    height: 120px;
+    width: 120px;
+  }
+
   .circle-1 {
     top: 50;
     left: calc(100vw / 2 + 100px);
@@ -802,6 +816,7 @@ body {
     top: 150;
     left: calc(100vw / 2 + 430px);
   }
+
   /* About Styles end */
 }
 
