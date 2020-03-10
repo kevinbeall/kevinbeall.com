@@ -329,6 +329,17 @@ body {
   font-size: 1.5em;
 }
 
+.technology-list {
+  width: 100%;
+  text-align: center;
+}
+
+.technology-list li {
+  display: inline;
+  padding: 15px;
+  margin: 0;
+}
+
 .circle-1, .circle-2, .circle-3, .circle-4, .circle-5, .circle-6, .circle-7, .circle-8 {
   height: 150px;
   width: 150px;
