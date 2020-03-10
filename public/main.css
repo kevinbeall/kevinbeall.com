@@ -235,6 +235,18 @@ body {
     font-size: 1.4em;
   }
 
+  .title-rect p {
+    font-size: 0.7em;
+    padding-top: 10px;
+  }
+  .title-rect div {
+    padding: 20px;
+  }
+
+  .title-rect .hidden {
+    display: none;
+  }
+
   .who-am-i {
     position: absolute;
     top: 98%;
