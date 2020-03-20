@@ -218,8 +218,8 @@ body {
   .project-overlay a img {
     z-index: 300;
     opacity: 1;
-    height: 25%;
-    width: 45%;
+    height: 125px;
+    width: 125px;
     justify-self: center;
     align-self: center;
   }
