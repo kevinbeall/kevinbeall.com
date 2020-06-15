@@ -144,6 +144,10 @@ body {
   padding-bottom: 20px;
 }
 
+.project a {
+  color: white;
+}
+
 .port-arrow-tri-1, .about-arrow-tri-1 {
   width: 0;
   height: 0;
